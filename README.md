@@ -9,7 +9,12 @@ int main( int argc , char* argv[] ) {
 
 	try {
 
-		XmlTag tag = XmlTag::Parse(" < tag key = val  key2=val2> data < tag2 key = val  key2=val2>inner data</tag2>extra< / tag > ");
+		XmlTag tag = XmlTag::Parse(" < tag key = val  key2=val2>"
+						" data "
+						"< tag2 key = val  key2=val2>"
+						  "inner data"
+						"</tag2>extra"
+					     "< / tag > ");
 
 		if (tag["key"] != "val")
 			return 1;
