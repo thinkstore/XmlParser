@@ -1,5 +1,5 @@
 # XmlParser
-Single header , unofficial xml parser for easy to use compatible with C++11 or more
+Single header , unofficial xml parser for easy to use compatible with C++11
 ```cpp
 #include "XmlParser.hpp"
 
