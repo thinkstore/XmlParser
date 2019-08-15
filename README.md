@@ -1,6 +1,6 @@
 # XmlParser
 Single header , unofficial xml parser for easy to use compatible with C++11 or more
-
+```cpp
 	#include "XmlParser.hpp"
 
 	using namespace ez;
@@ -40,7 +40,7 @@ Single header , unofficial xml parser for easy to use compatible with C++11 or m
 		return 0;
 
 	}
-
+```
 
 
 
