@@ -33,7 +33,7 @@ Single header , unofficial xml parser for easy to use
 
 		}
 		catch (std::exception& e) {
-			std::cout << std::string(e.what()) << std::endl;
+			std::cout << e.what() << std::endl;
 			return 1;
 		}
 
